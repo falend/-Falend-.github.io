@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+/* UNTUK HAPE */
+@media only screen and (max-width: 600px){
+.col-sm-1 {width: 8.33%;}
+.col-sm-2 {width: 18.66%;}
+.col-sm-3 {width: 25%;}
+.col-sm-4 {width: 33.33%;}
+.col-sm-5 {width: 41.66%;}
+.col-sm-6 {width: 50%;}
+.col-sm-7 {width: 58.33%;}
+.col-sm-8 {width: 66.66%;}
+.col-sm-9 {width: 75%;}
+.col-sm-10 {width: 83.33%;}
+.col-sm-11 {width: 91.66%;}
+.col-sm-12 {width: 100%;}
+}
+
+/* for tablet */
+@media only screen and (min-width: 600px){
+.col-md-1 {width: 8.33%;}
+.col-md-2 {width: 18.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+}
+
+/* for pc */
+@media only screen and (min-width: 768px){
+.col-lg-1 {width: 8.33%;}
+.col-lg-2 {width: 18.66%;}
+.col-lg-3 {width: 25%;}
+.col-lg-4 {width: 33.33%;}
+.col-lg-5 {width: 41.66%;}
+.col-lg-6 {width: 50%;}
+.col-lg-7 {width: 58.33%;}
+.col-lg-8 {width: 66.66%;}
+.col-lg-9 {width: 75%;}
+.col-lg-10 {width: 83.33%;}
+.col-lg-11 {width: 91.66%;}
+.col-lg-12 {width: 100%;}
+}
+
+[class*="col"] {
+    float: left;
+}
+           
+.row :after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+body {
+    background-image: url(falend14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(223, 211, 211);
+    color: rgb(56, 37, 0);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: transparent;
+    color: white;
+  }
+  .topnav .icon {
+      display: none;
+  }
+
+  
+  /* footer */
+  .container {
+    position: relative;
+}
+
+.text-block {
+   /*position: absolute;*/
+   bottom: 0px;
+   right: 0px;
+   background-color: rgb(124, 158, 158);
+   color: white;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-radius: 25px;
+}
+P {
+  text-align: center;
+  font-style: inherit;
+  color: #f2f2f2;
+  font-size: 20px;
+  text-shadow: 3px 2.5px #d17e02;  
+
+}
+h1 {
+    color: rgb(185, 180, 180);
+    font-weight: normal;  
+    font-style: initial; 
+    text-align: center;
+    font-size: 90px;
+    text-shadow: 3px 2.5px #d17e02; 
+} 
+h3 {
+  font-weight: normal;
+  font-style: initial;
+  text-align: center;
+}
+h4 {
+  font-weight: normal;
+  font-style: initial;
+  text-align: center;
+}
+.jumbotron {
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+
+}
+.overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ /* Style all font awesome icons */
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  /* Facebook */
+  .fa-facebook {
+    color: rgb(17, 58, 170);
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    color: rgb(20, 90, 194);
+  }
+  /* Instagram */
+  .fa-instagram {
+      color: rgb(202, 46, 106);
+  }
+  /* Whatsapp */
+  .fa-whatsapp {
+      color: rgb(36, 211, 80);
+  } 
+  /* biar sudutnya ga lancip */
+  [class*="fa-"] {
+    border-radius: 25%;
+  } 
+
+  .kotak {
+    height: 200px;
+    background-color: rgb(124, 158, 158);
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+  }
+  .container {
+    position: relative;
+}
+
+.text-block {
+   /*position: absolute;*/
+   bottom: 0px;
+   right: 0px;
+   background-color: rgb(124, 158, 158);
+   color: white;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-radius: 25px;
+}
